@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIA</title>
+    <link rel="stylesheet" href="adorno.css">
+</head>
+<body>
+    <h1>VIA</h1>
+    <h5>Videos, Imagenes, Audio</h5>
+    <p>En esta sección se hablara sobre como insertar video, imagenes y audio en HTML</p>
+    <h3>Video</h3>
+    <img src="" alt="">
+    <table border="3" class="tabla">
+        <tr>
+            <th>Atributo</th>
+            <th>¿Para qué sirve?</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>src </td>
+            <td>Ruta o enlace del archivo de video</td>
+            <td><img src="video.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>controls</td>
+            <td>Muestra la barra de reproducción (play, pausa, volumen). ¡Obligatorio!</td>
+            <td><img src="controls.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>poster</td>
+            <td>Imagen que va antes de darle play (miniatura).</td>
+            <td><img src="poster.png" alt=""></td>
+        </tr>
+        <tr>
+           <td>autoplay</td>
+           <td>El video se reproduce solo al cargar la página</td>
+           <td><img src="autoplay.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>muted</td>
+            <td>Inicia sin sonido (necesario para que funcione el autoplay)</td>
+            <td><img src="muted.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>loop</td>
+            <td>El video se repite infinitamente</td>
+            <td><img src="loop.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>preload</td>
+            <td>Cómo cargar el video antes de dar play (auto, metadata, none).</td>
+            <td><img src="preload.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>source</td>
+            <td>Para poner varios formatos (MP4, WebM) y asegurar compatibilidad.</td>
+            <td><img src="sourceV.png" alt=""></td>
+        </tr>
+    </table>
+    <h3>Imagenes</h3>
+    <img src="" alt="">
+    <table border="3" class="tabla">
+        <tr>
+            <th>Atributo</th>
+            <th>¿Para qué sirve?</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>src</td>
+            <td>Ruta o enlace de la imagen. ¡Obligatorio!</td>
+            <td><img src="img.png" alt=""></td>
+         </tr>
+         <tr>
+            <td>alt</td>
+            <td>Texto alternativo (aparece si no carga la imagen y lo leen <br>
+            los lectores de pantalla).</td>
+            <td><img src="alt.png" alt=""></td>
+         </tr>
+         <tr>
+            <td>width</td>
+            <td>Ancho de la imagen en píxeles</td>
+            <td><img src="width.png" alt=""></td>
+         </tr>
+         <tr>
+            <td>height</td>
+            <td>Alto de la imagen en píxeles</td>
+            <td><img src="height.png" alt=""></td>
+         </tr>
+         <tr>
+            <td>title</td>
+            <td>Muestra un globo de texto al pasar el mouse por encima</td>
+            <td><img src="title.png" alt=""></td>
+         </tr>
+         <tr>
+            <td>loading</td>
+            <td>Carga diferida. La imagen no carga hasta que haces scroll</td>
+            <td><img src="loading.png" alt=""></td>
+         </tr>
+         <tr>
+            <td>srcset</td>
+            <td>Diferentes versiones de la imagen para celular o PC</td>
+            <td><img src="srcset.png" alt=""></td>
+         </tr>
+
+    </table>
+    <h3>Audio</h3>
+    <img src="" alt="">
+    <table border="3" class="tabla">
+        <tr>
+            <th>Atributo</th>
+            <th>¿Para qué sirve?</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>src</td>
+            <td>Ruta o enlace del archivo de audio.</td>
+            <td><img src="audio.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>controls</td>
+            <td>Muestra la barra de reproducción. ¡Obligatorio!</td>
+            <td><img src="controlsA.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>autoplay</td>
+            <td>El audio suena solo al cargar la página.</td>
+            <td><img src="autoplayA.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>muted</td>
+            <td>Inicia silenciado (el usuario debe subir el volumen).</td>
+            <td><img src="mutedA.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>loop</td>
+            <td>El audio se repite una y otra vez.</td>
+            <td><img src="loopA.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>preload</td>
+            <td>Cómo cargar el audio (auto, metadata, none).</td>
+            <td><img src="preloadA.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>source</td>
+            <td>Para poner varios formatos (MP3, OGG).</td>
+            <td><img src="sourceA.png" alt=""></td>
+        </tr>
+
+    </table>
+
+  <p>Dejamos unos videos para mejor explicación</p>
+  <table class="tabla">
+    <tr>
+        <th>Video</th>
+        <th>Imagen</th>
+        <th>Audio</th>
+    </tr>
+    <tr>
+        <td><video src="video.mp4" controls width="200" height="300"></video></td>
+        <td><video src="imagen.mp4" controls width="200" height="300"></video></td>
+        <td><video src="audio.mp4" controls width="200" height="300"></video></td>
+    </tr>
+  </table>
+
+
+    
+</body>
+</html>
